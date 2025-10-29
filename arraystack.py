@@ -11,9 +11,10 @@ class ArrayStack(ArrayStructure):
             print("empty")
             return None
         return self.arrayNodes[self.length-1].data
-astack = ArrayStack()
-for i in range(10):
-   astack.push(i)
-astack.removeLast()
-astack.display()
-print(astack.top())
+# if __name__ == "__main__":
+#     astack = ArrayStack()
+#     for i in range(10):
+#         astack.push(i)
+#     astack.removeLast()
+#     astack.display()
+#     print(astack.top())

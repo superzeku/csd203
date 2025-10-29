@@ -12,9 +12,9 @@ class LLQueue(SinglyLinkedList):
         if self.isEmpty():
             return None
         return self.head
-if __name__ == "__main__":    
-    lqueue = LLQueue()
-    for i in range(10): lqueue.enqueue(i)
-    lqueue.display()
-    node = lqueue.dequeue()
-    if node: print(node.data)
+# if __name__ == "__main__":    
+#     lqueue = LLQueue()
+#     for i in range(10): lqueue.enqueue(i)
+#     lqueue.display()
+#     node = lqueue.dequeue()
+#     if node: print(node.data)
